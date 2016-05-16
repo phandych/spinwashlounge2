@@ -1,0 +1,20 @@
+<section id="map" class="container close-map">
+		<!-- Open/Close Button -->
+		<a id="map-button" class="google-map-big-button uppercase bold condensed white scroll close-map-button" href="#map">where are we ? click for google map <i class="fa fa-caret-down"></i></a>
+		<!-- Google Map Script -->
+		<script src="http://www.youtube.com/player_api" id="YTAPI"></script><script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<!-- Google Map -->
+		
+	</section>
+<div id="google-maps" style="width: 230px; height: 230px;">
+			
+		</div>
+<script type="text/javascript">
+	var map;
+	function iniMap() {
+		map = new google.maps.map(document.getElementById('google-maps'), {
+			ceneter: {lat: 1134.397, lng: 150.644},
+			zoom: 8
+		});
+	}
+</script>
