@@ -9,6 +9,7 @@ body {
   line-height: 24px;
   color: #666;
   background-color: #fff;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -857,21 +858,18 @@ section {
 **************************/
 
 #contact {
-  padding-top: 45px;
+  padding-top: 76px;
   padding-bottom: 0;
 }
 
-#google-map {
-  height: 350px;
-}
 
 #contact-us {
-  background-image:url(../images/contact-bg.jpg);
+  background-image:url(../assets/i5.jpg);
   padding-bottom: 90px; 
 }
 
 #contact-us .heading {
-  padding-top: 95px;
+  padding-top: 20px;
 }
 
 .form-control {

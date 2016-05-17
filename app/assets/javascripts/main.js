@@ -158,6 +158,11 @@ jQuery(function($) {
 		});
 	}
 	google.maps.event.addDomListener(window, 'load', initialize_map);
+
+	$('#map-button').click(function(){
+		$('#map-button').toggleClass('open-map-button');
+		$('#map').toggleClass('open-map')
+	});
 	
 });
 
